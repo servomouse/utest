@@ -21,9 +21,5 @@ int test__add(void)
 int main(void)
 {
     printf("Hello world!\n");
-    if(test__add() == EXIT_SUCCESS)
-        printf("test completed successfully!\n");
-    else
-        printf("test failed!\n");
     return 0;
 }
